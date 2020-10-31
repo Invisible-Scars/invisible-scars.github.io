@@ -22,6 +22,8 @@ import TeaserSection from "./Sections/TeaserSection.js";
 import ProductSection from "./Sections/ProductSection.js";
 import PitchSection from "./Sections/PitchSection.js";
 import UXMappingSection from "./Sections/UXMappingSection.js";
+import PromotionalSection from "./Sections/PromotionalSection.js";
+import ResourceSection from "./Sections/ResourceSection.js";
 import TeamSection from "./Sections/TeamSection.js";
 
 const dashboardRoutes = [];
@@ -77,6 +79,8 @@ export default function LandingPage(props) {
           <ProductSection />
           <PitchSection />
           <UXMappingSection/>
+          <PromotionalSection/>
+          <ResourceSection/>
           <TeamSection />
         </div>
       </div>
