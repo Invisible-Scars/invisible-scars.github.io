@@ -1,8 +1,8 @@
 {
-  "homepage": "http://ighour.github.io/invisible-scars",
-  "name": "material-kit-react",
-  "version": "1.9.0",
-  "description": "Material Kit React. Coded by Creative Tim",
+  "homepage": "http://invisible-scars.github.io",
+  "name": "invisible-scars",
+  "version": "1.0.0",
+  "description": "Project for LM-MM-FEUP",
   "private": true,
   "main": "src/index.js",
   "dependencies": {
