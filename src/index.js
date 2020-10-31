@@ -7,17 +7,13 @@ import "assets/scss/material-kit-react.scss?v=1.9.0";
 import 'video-react/dist/video-react.css';
 
 // pages for this product
-// import Components from "views/Components/Components.js";
 import LandingPage from "views/LandingPage/LandingPage.js";
-import ProfilePage from "views/ProfilePage/ProfilePage.js";
 
 var hist = createBrowserHistory();
 
 ReactDOM.render(
   <Router history={hist}>
     <Switch>
-      <Route path="/profile-page" component={ProfilePage} />
-      {/* <Route path="/" component={Components} /> */}
       <Route path="/" component={LandingPage} />
     </Switch>
   </Router>,

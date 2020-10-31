@@ -18,7 +18,7 @@ export default function PromotionalSection() {
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Promotional</h2>
           <h5 className={classes.description}>
-          TODO: promotional materials (a short video teaser is mandatory)
+          TODO: promotional materials (a short video teaser is mandatory). Banners. Flyers. etc.
           </h5>
         </GridItem>
       </GridContainer>
