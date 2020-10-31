@@ -19,6 +19,7 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 
 // Sections for this page
 import TeaserSection from "./Sections/TeaserSection.js";
+import ProductSection from "./Sections/ProductSection.js";
 import PitchSection from "./Sections/PitchSection.js";
 import UXMappingSection from "./Sections/UXMappingSection.js";
 import TeamSection from "./Sections/TeamSection.js";
@@ -73,6 +74,7 @@ export default function LandingPage(props) {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <TeaserSection/>
+          <ProductSection />
           <PitchSection />
           <UXMappingSection/>
           <TeamSection />
