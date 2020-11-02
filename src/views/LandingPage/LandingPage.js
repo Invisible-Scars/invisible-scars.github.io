@@ -46,9 +46,9 @@ export default function LandingPage(props) {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <TeaserSection/>
-          <ProductSection />
           <PitchSection />
           <UXMappingSection/>
+          <ProductSection />
           <PromotionalSection/>
           <ResourceSection/>
           <TeamSection />

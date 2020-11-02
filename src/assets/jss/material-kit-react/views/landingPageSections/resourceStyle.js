@@ -12,9 +12,16 @@ const resourceStyle = {
     minHeight: "32px",
     textDecoration: "none"
   },
-  description: {
-    color: "#999"
-  }
+  downloads: {
+    textAlign: "left"
+  },
+  button: {
+    padding: "10px",
+    margin: "10px",
+    width: "150px",
+    height: "80px",
+    textAlign: "center"
+  },
 };
 
 export default resourceStyle;
