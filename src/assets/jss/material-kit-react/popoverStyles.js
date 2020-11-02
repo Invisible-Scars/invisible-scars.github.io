@@ -9,7 +9,7 @@ const popoverStyles = {
     borderRadius: "3px",
     display: "block",
     maxWidth: "276px",
-    fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
+    fontFamily: '"Frutiger LT Std 45 Light", "Roboto", "Helvetica", "Arial", sans-serif',
     fontStyle: "normal",
     fontWeight: "400",
     textAlign: "start",
