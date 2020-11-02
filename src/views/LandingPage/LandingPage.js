@@ -22,6 +22,7 @@ import UXMappingSection from "./Sections/UXMappingSection.js";
 import PromotionalSection from "./Sections/PromotionalSection.js";
 import ResourceSection from "./Sections/ResourceSection.js";
 import TeamSection from "./Sections/TeamSection.js";
+import MakingfOfSection from "./Sections/MakingfOfSection.js";
 
 import logo from "assets/img/project/logo.png";
 
@@ -50,6 +51,7 @@ export default function LandingPage(props) {
           <UXMappingSection/>
           <ProductSection />
           <PromotionalSection/>
+          <MakingfOfSection/>
           <ResourceSection/>
           <TeamSection />
         </div>
