@@ -20,7 +20,16 @@ const resourceStyle = {
     margin: "10px",
     width: "150px",
     height: "80px",
-    textAlign: "center"
+    textAlign: "center",
+    '&:hover': {
+      color: "#d1c6b4"
+    },
+    '&:focus': {
+      color: "#d1c6b4"
+    },
+    '&:active': {
+      color: "#d1c6b4"
+    },
   },
 };
 

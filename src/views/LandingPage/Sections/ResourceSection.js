@@ -2,9 +2,6 @@ import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-// @material-ui/icons
-import GetApp from "@material-ui/icons/GetApp";
-
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -34,7 +31,6 @@ export default function ResourceSection() {
           <Button
             variant="contained"
             className={classes.button}
-            startIcon={<GetApp/>}
             color="primary"
             href={ProjectReport}
             target="_blank"
@@ -44,8 +40,7 @@ export default function ResourceSection() {
           <Button
             variant="contained"
             className={classes.button}
-            startIcon={<GetApp/>}
-            color="default"
+            color="primary"
             href={IdeaBrainstorm}
             target="_blank"
             >
@@ -54,8 +49,7 @@ export default function ResourceSection() {
           <Button
             variant="contained"
             className={classes.button}
-            startIcon={<GetApp/>}
-            color="default"
+            color="primary"
             href={BMC}
             target="_blank"
             >
@@ -64,8 +58,7 @@ export default function ResourceSection() {
           <Button
             variant="contained"
             className={classes.button}
-            startIcon={<GetApp/>}
-            color="default"
+            color="primary"
             href={Storyboard}
             target="_blank"
             >
@@ -74,8 +67,7 @@ export default function ResourceSection() {
           <Button
             variant="contained"
             className={classes.button}
-            startIcon={<GetApp/>}
-            color="default"
+            color="primary"
             href={PitchSlides}
             target="_blank"
             >
@@ -84,8 +76,7 @@ export default function ResourceSection() {
           <Button
             variant="contained"
             className={classes.button}
-            startIcon={<GetApp/>}
-            color="default"
+            color="primary"
             href={PitchReport}
             target="_blank"
             >
