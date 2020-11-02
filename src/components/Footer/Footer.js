@@ -7,7 +7,7 @@ import classNames from "classnames";
 // material-ui core components
 import { makeStyles } from "@material-ui/core/styles";
 
-// @material-ui/icons
+// styles
 import styles from "assets/jss/material-kit-react/components/footerStyle.js";
 
 const useStyles = makeStyles(styles);
