@@ -35,6 +35,9 @@ const landingPageStyle = {
     display: "flex",
     justifyContent: "center",
     alignItens: "center"
+  },
+  image: {
+    maxWidth: "100%"
   }
 };
 
