@@ -1,10 +1,10 @@
 {
-  "name": "material-kit-react",
-  "homepage": "https://github.com/creativetimofficial/material-kit-react",
+  "name": "invisible-scars",
+  "homepage": "http://invisible-scars.github.io",
   "authors": [
-    "creative-tim"
+    "Ighour"
   ],
-  "description": "A Badass Material-UI Kit based on Material Design",
+  "description": "Project for LM-MM-FEUP",
   "main": "dist/index.js",
   "keywords": [
     "material",

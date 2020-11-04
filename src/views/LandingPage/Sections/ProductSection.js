@@ -18,7 +18,7 @@ export default function ProductSection() {
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Product</h2>
           <h5 className={classes.description}>
-          TODO: the product. Final video. Other related things. Apply colors to theme. Add final report pdf. Add teaser video. Edit team info. Adjust web name, icon. Set PWA. Added makinf of to section.
+          TODO: the product. Final video. Other related things. Add final report pdf. Add teaser video. Edit team info. Set PWA.
           </h5>
         </GridItem>
       </GridContainer>

@@ -41,7 +41,10 @@ const theme = createMuiTheme({
     info: {
       main: "#5a635b"
     },
-    type: "light"
+    type: "light",
+    background: {
+      default: "#d1c6b4"
+    }
   },
   typography: {
     fontFamily: [
