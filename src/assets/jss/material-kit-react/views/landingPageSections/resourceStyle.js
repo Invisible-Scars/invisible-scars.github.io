@@ -13,7 +13,7 @@ const resourceStyle = {
     textDecoration: "none"
   },
   downloads: {
-    textAlign: "left"
+    textAlign: "center"
   },
   button: {
     padding: "10px",
