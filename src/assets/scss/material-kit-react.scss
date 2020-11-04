@@ -23,7 +23,15 @@
 
 // Core Plugins
 @import url(https://db.onlinewebfonts.com/c/0e1927dde1e5ce1dcc975658afeb9e7c?family=Frutiger+LT+Std+45+Light);
-
+@font-face {
+    font-family: "Frutiger LT Std 45 Light";
+    src: url("https://db.onlinewebfonts.com/t/0e1927dde1e5ce1dcc975658afeb9e7c.eot");
+    src: url("https://db.onlinewebfonts.com/t/0e1927dde1e5ce1dcc975658afeb9e7c.eot?#iefix") format("embedded-opentype"), 
+        url("https://db.onlinewebfonts.com/t/0e1927dde1e5ce1dcc975658afeb9e7c.woff2") format("woff2"), 
+        url("https://db.onlinewebfonts.com/t/0e1927dde1e5ce1dcc975658afeb9e7c.woff") format("woff"), 
+        url("https://db.onlinewebfonts.com/t/0e1927dde1e5ce1dcc975658afeb9e7c.ttf") format("truetype"), 
+        url("https://db.onlinewebfonts.com/t/0e1927dde1e5ce1dcc975658afeb9e7c.svg#Frutiger LT Std 45 Light") format("svg");
+}
 // @import "plugins/plugin-datetime-picker";
 @import "plugins/plugin-nouislider";
 @import "plugins/plugin-react-datetime";
