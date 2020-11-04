@@ -20,6 +20,7 @@ import team1 from "assets/img/faces/avatar.jpg";
 import teamDaniel from "assets/img/project/members/daniel.jpeg";
 import teamCelio from "assets/img/project/members/celio.jpg";
 import teamMadalena from "assets/img/project/members/madalena.jpeg";
+import teamToscano from "assets/img/project/members/toscano.jpeg";
 
 const useStyles = makeStyles(styles);
 
@@ -225,7 +226,7 @@ export default function TeamSection() {
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team1} alt="..." className={imageClasses} />
+                <img src={teamToscano} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
               João Joaquim Neves Toscano
@@ -234,11 +235,15 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  TODO
+                Musician and Producer with interest in Science 
+                and Technologies in general. With Bachelor’s in 
+                Electronic Music and Musical Production, I’m 
+                finding the best way to connect this areas and 
+                being creative.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
-                <Button
+                {/* <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
@@ -264,7 +269,7 @@ export default function TeamSection() {
                   target="_blank"
                 >
                   <i className={classes.socials + " fab fa-facebook"} />
-                </Button>
+                </Button> */}
               </CardFooter>
             </Card>
           </GridItem>

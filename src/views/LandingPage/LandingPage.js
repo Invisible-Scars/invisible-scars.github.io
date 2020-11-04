@@ -4,6 +4,10 @@ import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
+import { ThemeProvider } from '@material-ui/core/styles';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import { createMuiTheme } from '@material-ui/core/styles';
+
 // @material-ui/icons
 
 // core components
@@ -26,13 +30,44 @@ import MakingfOfSection from "./Sections/MakingfOfSection.js";
 
 import logo from "assets/img/project/logo.png";
 
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: "#5a635b",
+    },
+    secondary: {
+      main: "#d1c6b4",
+    },
+    info: {
+      main: "#5a635b"
+    },
+    type: "light"
+  },
+  typography: {
+    fontFamily: [
+      '"Frutiger LT Std 45 Light"',
+      '-apple-system',
+      'BlinkMacSystemFont',
+      '"Segoe UI"',
+      'Roboto',
+      '"Helvetica Neue"',
+      'Arial',
+      'sans-serif',
+      '"Apple Color Emoji"',
+      '"Segoe UI Emoji"',
+      '"Segoe UI Symbol"',
+    ].join(','),
+  },
+});
+
 const useStyles = makeStyles(styles);
 
 export default function LandingPage(props) {
   const classes = useStyles();
 
   return (
-    <div>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
       <Parallax filter image={require("assets/img/project/bg-website.png")}>
         <div className={classes.container}>
           <GridContainer>
@@ -57,6 +92,6 @@ export default function LandingPage(props) {
         </div>
       </div>
       <Footer />
-    </div>
+    </ThemeProvider>
   );
 }

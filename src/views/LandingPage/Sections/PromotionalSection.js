@@ -7,16 +7,25 @@ import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
 import Camera from "@material-ui/icons/Camera";
 import Instagram from "@material-ui/icons/Instagram";
+import Videocam from "@material-ui/icons/Videocam";
 
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import NavPills from "components/NavPills/NavPills.js";
 
-import poster from "assets/img/project/promotional/poster.png";
-import post1 from "assets/img/project/promotional/post1.png";
-import post2 from "assets/img/project/promotional/post2.png";
-import instastory from "assets/img/project/promotional/instastory.png";
+// social mocks
+import fbpageMockup from "assets/img/project/promotional/fbpage-mockup.png";
+import instaMockup from "assets/img/project/promotional/insta-mockup.png";
+import instastoryMockup from "assets/img/project/promotional/instastory-mockup.png";
+
+// merchandise mocks
+import tshirtMockup from "assets/img/project/promotional/tshirt-mockup.png";
+import militarytagMockup from "assets/img/project/promotional/militarytag-mockup.png";
+
+// advertising mocks
+import posterMockup from "assets/img/project/promotional/poster-mockup.png";
+import flyersMockup from "assets/img/project/promotional/flyers-mockup.png";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/promotionalStyle.js";
 
@@ -38,26 +47,28 @@ export default function PromotionalSection() {
             color="primary"
             tabs={[
               {
-                tabButton: "Posters",
-                tabIcon: Camera,
+                tabButton: "Social",
+                tabIcon: Instagram,
                 tabContent: (
                   <GridContainer justify="center">
-                    <GridItem xs={12} sm={12} md={4}>
+                    <GridItem xs={12} sm={6} md={4}>
                       <img
                         alt="..."
-                        src={post1}
-                        className={navImageClasses}
-                      />
-                      <img
-                        alt="..."
-                        src={post2}
+                        src={instaMockup}
                         className={navImageClasses}
                       />
                     </GridItem>
-                    <GridItem xs={12} sm={12} md={6}>
+                    <GridItem xs={12} sm={5} md={3}>
                       <img
                         alt="..."
-                        src={poster}
+                        src={instastoryMockup}
+                        className={navImageClasses}
+                      />
+                    </GridItem>
+                    <GridItem xs={12} sm={10} md={8}>
+                      <img
+                        alt="..."
+                        src={fbpageMockup}
                         className={navImageClasses}
                       />
                     </GridItem>
@@ -65,14 +76,43 @@ export default function PromotionalSection() {
                 )
               },
               {
-                tabButton: "Instagram",
-                tabIcon: Instagram,
+                tabButton: "Merchandise",
+                tabIcon: Camera,
                 tabContent: (
                   <GridContainer justify="center">
-                    <GridItem xs={12} sm={12} md={6}>
+                    <GridItem xs={12} sm={9} md={7}>
                       <img
                         alt="..."
-                        src={instastory}
+                        src={tshirtMockup}
+                        className={navImageClasses}
+                      />
+                    </GridItem>
+                    <GridItem xs={12} sm={9} md={7}>
+                      <img
+                        alt="..."
+                        src={militarytagMockup}
+                        className={navImageClasses}
+                      />
+                    </GridItem>
+                  </GridContainer>
+                )
+              },
+              {
+                tabButton: "Advertising",
+                tabIcon: Videocam,
+                tabContent: (
+                  <GridContainer justify="center">
+                    <GridItem xs={12} sm={9} md={7}>
+                      <img
+                        alt="..."
+                        src={posterMockup}
+                        className={navImageClasses}
+                      />
+                    </GridItem>
+                    <GridItem xs={12} sm={9} md={7}>
+                      <img
+                        alt="..."
+                        src={flyersMockup}
                         className={navImageClasses}
                       />
                     </GridItem>

@@ -4,24 +4,18 @@ import Carousel from "react-slick";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-// @material-ui/icons
-import LocationOn from "@material-ui/icons/LocationOn";
-
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Card from "components/Card/Card.js";
 
-// import st001 from "assets/img/project/storyboard/001.png";
-// import st002 from "assets/img/project/storyboard/002.png";
-// import st003 from "assets/img/project/storyboard/003.jpg";
-// import st004 from "assets/img/project/storyboard/004.jpg";
-// import st005 from "assets/img/project/storyboard/005.jpg";
-// import st006 from "assets/img/project/storyboard/006.jpg";
-
-import image1 from "assets/img/bg.jpg";
-import image2 from "assets/img/bg2.jpg";
-import image3 from "assets/img/bg3.jpg";
+import storyboard1 from "assets/img/project/makingof/storyboard-1.jpg";
+import storyboard2 from "assets/img/project/makingof/storyboard-2.jpg";
+import storyboard3 from "assets/img/project/makingof/storyboard-3.jpg";
+import storyboard4 from "assets/img/project/makingof/storyboard-4.jpg";
+import storyboard5 from "assets/img/project/makingof/storyboard-5.jpg";
+import heartbeat28 from "assets/img/project/makingof/heartbeat-28.jpg";
+import heartbeat29 from "assets/img/project/makingof/heartbeat-29.jpg";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/makinfOfStyle.js";
 
@@ -48,33 +42,58 @@ export default function MakingfOfSection() {
           <Card carousel>
             <Carousel {...settings}>
               <div>
-                <img src={image1} alt="First slide" className="slick-image" />
+                <img src={storyboard1} alt="Storyboard 1" className="slick-image" />
                 <div className="slick-caption">
                   <h4>
-                    <LocationOn className="slick-icons" />
-                    Yellowstone National Park, United States
+                    Storyboard #1
                   </h4>
                 </div>
               </div>
               <div>
-                <img
-                  src={image2}
-                  alt="Second slide"
-                  className="slick-image"
-                />
+                <img src={storyboard2} alt="Storyboard 2" className="slick-image" />
                 <div className="slick-caption">
                   <h4>
-                    <LocationOn className="slick-icons" />
-                    Somewhere Beyond, United States
+                    Storyboard #2
                   </h4>
                 </div>
               </div>
               <div>
-                <img src={image3} alt="Third slide" className="slick-image" />
+                <img src={storyboard3} alt="Storyboard 3" className="slick-image" />
                 <div className="slick-caption">
                   <h4>
-                    <LocationOn className="slick-icons" />
-                    Yellowstone National Park, United States
+                    Storyboard #3
+                  </h4>
+                </div>
+              </div>
+              <div>
+                <img src={storyboard4} alt="Storyboard 4" className="slick-image" />
+                <div className="slick-caption">
+                  <h4>
+                    Storyboard #4
+                  </h4>
+                </div>
+              </div>
+              <div>
+                <img src={storyboard5} alt="Storyboard 5" className="slick-image" />
+                <div className="slick-caption">
+                  <h4>
+                    Storyboard #5
+                  </h4>
+                </div>
+              </div>
+              <div>
+                <img src={heartbeat28} alt="Heartbeat 1" className="slick-image" />
+                <div className="slick-caption">
+                  <h4>
+                    Heartbeat #1
+                  </h4>
+                </div>
+              </div>
+              <div>
+                <img src={heartbeat29} alt="Heartbeat 2" className="slick-image" />
+                <div className="slick-caption">
+                  <h4>
+                    Heartbeat #2
                   </h4>
                 </div>
               </div>
