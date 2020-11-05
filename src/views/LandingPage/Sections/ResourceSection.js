@@ -14,6 +14,7 @@ import PitchSlides from "assets/files/pitch-slides.pdf";
 import PitchReport from "assets/files/pitch-report.pdf";
 import IdeaBrainstorm from "assets/files/idea-brainstorm.pdf";
 import ProjectReport from "assets/files/idea-brainstorm.pdf";
+import FinalPresentation from "assets/files/idea-brainstorm.pdf";
 import BMC from "assets/files/bmc.pdf";
 import Storyboard from "assets/files/storyboard.pdf";
 
@@ -36,6 +37,15 @@ export default function ResourceSection() {
             target="_blank"
             >
             Project Report
+          </Button>
+          <Button
+            variant="contained"
+            className={classes.button}
+            color="primary"
+            href={FinalPresentation}
+            target="_blank"
+            >
+            Final Presentation
           </Button>
           <Button
             variant="contained"

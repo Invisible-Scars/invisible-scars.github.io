@@ -6,6 +6,10 @@ import { makeStyles } from "@material-ui/core/styles";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 
+// video
+import { Player } from 'video-react';
+import posterImg from 'assets/img/project/poster.png';
+
 import styles from "assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -15,11 +19,12 @@ export default function ProductSection() {
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
-        <GridItem xs={12} sm={12} md={8}>
+        <GridItem xs={12} sm={12} md={10}>
           <h2 className={classes.title}>Product</h2>
-          <h5 className={classes.description}>
-          TODO: the product. Final video. Other related things. Add final report pdf. Add teaser video. Edit team info. Set PWA.
-          </h5>
+          <Player
+            poster={posterImg}
+            src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+          />
         </GridItem>
       </GridContainer>
     </div>
