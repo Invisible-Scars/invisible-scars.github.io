@@ -31,6 +31,11 @@
         url("./fonts/0e1927dde1e5ce1dcc975658afeb9e7c.ttf") format("truetype"), 
         url("./fonts/0e1927dde1e5ce1dcc975658afeb9e7c.svg") format("svg");
 }
+@font-face {
+    font-family: "Frutiger LT Std 87 Extra Black Condensed";
+    src: url("./fonts/frutiger-lt-std-87-extra-black-condensed.otf");
+    src: url("./fonts/frutiger-lt-std-87-extra-black-condensed.otf") format("opentype");
+}
 // @import "plugins/plugin-datetime-picker";
 @import "plugins/plugin-nouislider";
 @import "plugins/plugin-react-datetime";

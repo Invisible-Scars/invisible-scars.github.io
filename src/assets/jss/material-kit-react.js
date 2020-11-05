@@ -160,7 +160,7 @@ const title = {
   margin: "1.75rem 0 0.875rem",
   textDecoration: "none",
   fontWeight: "700",
-  fontFamily: `"Frutiger LT Std 45 Light", "Roboto Slab", "Times New Roman", serif`
+  fontFamily: `"Frutiger LT Std 87 Extra Black Condensed", "Frutiger LT Std 45 Light", "Roboto Slab", "Times New Roman", serif`
 };
 
 const cardTitle = {
