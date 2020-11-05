@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60947eca523a5a6b51f9d7082d6c5b2f",
+    "revision": "102e4434a575fe873f38a907e922ecd1",
     "url": "/index.html"
   },
   {
-    "revision": "f9abb64ccf6f6a01dca4",
+    "revision": "ee7f2cf482ca66b724a1",
     "url": "/static/css/2.a5277431.chunk.css"
   },
   {
-    "revision": "0b2d0e8f57eb7373440f",
-    "url": "/static/css/main.2cd91849.chunk.css"
+    "revision": "fde891768780655b3244",
+    "url": "/static/css/main.9f8071b8.chunk.css"
   },
   {
-    "revision": "f9abb64ccf6f6a01dca4",
-    "url": "/static/js/2.41d01321.chunk.js"
+    "revision": "ee7f2cf482ca66b724a1",
+    "url": "/static/js/2.6d52b19c.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/static/js/2.41d01321.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.6d52b19c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0b2d0e8f57eb7373440f",
-    "url": "/static/js/main.ccb09d4a.chunk.js"
+    "revision": "fde891768780655b3244",
+    "url": "/static/js/main.f4ea61a8.chunk.js"
   },
   {
     "revision": "053b931c6a08459051f1",
@@ -72,6 +72,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c758f186e13f4f64c6a13f49f5bdf920",
     "url": "/static/media/flyers-mockup.c758f186.png"
+  },
+  {
+    "revision": "0c7b89bd575586e7e61ecc3a00bc9401",
+    "url": "/static/media/frutiger-lt-std-87-extra-black-condensed.0c7b89bd.otf"
   },
   {
     "revision": "1a2bc40231ebf6afdb4dcde05620f8f1",

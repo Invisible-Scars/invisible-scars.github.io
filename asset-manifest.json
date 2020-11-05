@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.2cd91849.chunk.css",
-    "main.js": "/static/js/main.ccb09d4a.chunk.js",
-    "main.js.map": "/static/js/main.ccb09d4a.chunk.js.map",
+    "main.css": "/static/css/main.9f8071b8.chunk.css",
+    "main.js": "/static/js/main.f4ea61a8.chunk.js",
+    "main.js.map": "/static/js/main.f4ea61a8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6743c8b1.js",
     "runtime-main.js.map": "/static/js/runtime-main.6743c8b1.js.map",
     "static/css/2.a5277431.chunk.css": "/static/css/2.a5277431.chunk.css",
-    "static/js/2.41d01321.chunk.js": "/static/js/2.41d01321.chunk.js",
-    "static/js/2.41d01321.chunk.js.map": "/static/js/2.41d01321.chunk.js.map",
+    "static/js/2.6d52b19c.chunk.js": "/static/js/2.6d52b19c.chunk.js",
+    "static/js/2.6d52b19c.chunk.js.map": "/static/js/2.6d52b19c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.278d217818211ec9fceb4eb569fe0a66.js": "/precache-manifest.278d217818211ec9fceb4eb569fe0a66.js",
+    "precache-manifest.36ad5f628bf3085f653b91ae0885bab4.js": "/precache-manifest.36ad5f628bf3085f653b91ae0885bab4.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.a5277431.chunk.css.map": "/static/css/2.a5277431.chunk.css.map",
-    "static/css/main.2cd91849.chunk.css.map": "/static/css/main.2cd91849.chunk.css.map",
-    "static/js/2.41d01321.chunk.js.LICENSE.txt": "/static/js/2.41d01321.chunk.js.LICENSE.txt",
-    "static/media/material-kit-react.scss?v=1.9.0": "/static/media/0e1927dde1e5ce1dcc975658afeb9e7cb.e2b184f7.eot",
+    "static/css/main.9f8071b8.chunk.css.map": "/static/css/main.9f8071b8.chunk.css.map",
+    "static/js/2.6d52b19c.chunk.js.LICENSE.txt": "/static/js/2.6d52b19c.chunk.js.LICENSE.txt",
+    "static/media/material-kit-react.scss?v=1.9.0": "/static/media/frutiger-lt-std-87-extra-black-condensed.0c7b89bd.otf",
     "static/media/UXMap.png": "/static/media/UXMap.6680e19e.png",
     "static/media/bg-website.png": "/static/media/bg-website.7cc0f75a.png",
     "static/media/bmc.pdf": "/static/media/bmc.4cdbc75f.pdf",
@@ -46,8 +46,8 @@
   "entrypoints": [
     "static/js/runtime-main.6743c8b1.js",
     "static/css/2.a5277431.chunk.css",
-    "static/js/2.41d01321.chunk.js",
-    "static/css/main.2cd91849.chunk.css",
-    "static/js/main.ccb09d4a.chunk.js"
+    "static/js/2.6d52b19c.chunk.js",
+    "static/css/main.9f8071b8.chunk.css",
+    "static/js/main.f4ea61a8.chunk.js"
   ]
 }
