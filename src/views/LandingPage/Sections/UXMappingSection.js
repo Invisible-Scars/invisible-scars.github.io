@@ -3,6 +3,7 @@ import React from "react";
 import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
+import { Link } from "@material-ui/core";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -27,11 +28,13 @@ export default function UXMappingSection(props) {
       <div>
         <GridContainer justify="center">
           <GridItem xs={12}>
-            <img
-              alt="..."
-              src={uxMappingImg}
-              className={navImageClasses}
-            />
+            <Link href={uxMappingImg} target="_blank">
+              <img
+                alt="..."
+                src={uxMappingImg}
+                className={navImageClasses}
+              /> 
+            </Link>
           </GridItem>
         </GridContainer>
       </div>
