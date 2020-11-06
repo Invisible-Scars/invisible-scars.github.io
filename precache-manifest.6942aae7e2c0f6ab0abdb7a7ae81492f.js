@@ -1,31 +1,75 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "102e4434a575fe873f38a907e922ecd1",
+    "revision": "0398d8e29591d41caa2a40214266307c",
     "url": "/index.html"
   },
   {
-    "revision": "ee7f2cf482ca66b724a1",
-    "url": "/static/css/2.a5277431.chunk.css"
-  },
-  {
-    "revision": "fde891768780655b3244",
+    "revision": "172fee823184e0ac9bb3",
     "url": "/static/css/main.9f8071b8.chunk.css"
   },
   {
-    "revision": "ee7f2cf482ca66b724a1",
-    "url": "/static/js/2.6d52b19c.chunk.js"
+    "revision": "34bea2383e69d7d095f4",
+    "url": "/static/js/14.4d3210b5.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/static/js/2.6d52b19c.chunk.js.LICENSE.txt"
+    "url": "/static/js/14.4d3210b5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fde891768780655b3244",
-    "url": "/static/js/main.f4ea61a8.chunk.js"
+    "revision": "172fee823184e0ac9bb3",
+    "url": "/static/js/main.e2ce7524.chunk.js"
   },
   {
-    "revision": "053b931c6a08459051f1",
-    "url": "/static/js/runtime-main.6743c8b1.js"
+    "revision": "a1eb531c7d0b68872aee",
+    "url": "/static/js/reactPlayerDailyMotion.2ece161a.chunk.js"
+  },
+  {
+    "revision": "6e2a0b4d6f574bcabd94",
+    "url": "/static/js/reactPlayerFacebook.03eed206.chunk.js"
+  },
+  {
+    "revision": "252e049c07f6977f11c7",
+    "url": "/static/js/reactPlayerFilePlayer.3758cb41.chunk.js"
+  },
+  {
+    "revision": "94a1a9a0d86a6671a4b4",
+    "url": "/static/js/reactPlayerMixcloud.373f32c5.chunk.js"
+  },
+  {
+    "revision": "14d287ad41773d1c4341",
+    "url": "/static/js/reactPlayerPreview.6e885f46.chunk.js"
+  },
+  {
+    "revision": "c769812299cc6741f9ff",
+    "url": "/static/js/reactPlayerSoundCloud.be18d99f.chunk.js"
+  },
+  {
+    "revision": "2191952f66fdafb76778",
+    "url": "/static/js/reactPlayerStreamable.0c74b6b9.chunk.js"
+  },
+  {
+    "revision": "8a27cfbb171a39bc63b8",
+    "url": "/static/js/reactPlayerTwitch.475d0a8a.chunk.js"
+  },
+  {
+    "revision": "584928542ff20724fa35",
+    "url": "/static/js/reactPlayerVidyard.0abbe52d.chunk.js"
+  },
+  {
+    "revision": "aa871c8f7757700f752f",
+    "url": "/static/js/reactPlayerVimeo.05aaa990.chunk.js"
+  },
+  {
+    "revision": "85fac5d0a8aee2c366f7",
+    "url": "/static/js/reactPlayerWistia.7c4e798c.chunk.js"
+  },
+  {
+    "revision": "176199806dadc691b478",
+    "url": "/static/js/reactPlayerYouTube.9f0d6a80.chunk.js"
+  },
+  {
+    "revision": "30303992650570d2cfc3",
+    "url": "/static/js/runtime-main.60aeb4ae.js"
   },
   {
     "url": "/static/media/0e1927dde1e5ce1dcc975658afeb9e7c.0e1927dd.ttf"
@@ -48,6 +92,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6680e19ec38a3b08a660346254b2bc25",
     "url": "/static/media/UXMap.6680e19e.png"
+  },
+  {
+    "revision": "7b722b693aa65614622d6cedd846c089",
+    "url": "/static/media/augusto.7b722b69.jpeg"
+  },
+  {
+    "revision": "f161b057e5874e58c9545d36593ee998",
+    "url": "/static/media/beatriz.f161b057.jpeg"
   },
   {
     "revision": "7cc0f75aa4f2f987899d8467fcc36d6d",
@@ -86,10 +138,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/heartbeat-29.7e83292f.jpg"
   },
   {
-    "revision": "2b469921e0577791e9739d471d7d2311",
-    "url": "/static/media/idea-brainstorm.2b469921.pdf"
-  },
-  {
     "revision": "06f89eae9fc2c7e7498bbbfa896005f6",
     "url": "/static/media/insta-mockup.06f89eae.png"
   },
@@ -122,8 +170,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/poster-mockup.a4effb51.png"
   },
   {
-    "revision": "29f782968f9df5ab9778b1eaea521b4c",
-    "url": "/static/media/poster.29f78296.png"
+    "revision": "0fdd2b7591a9839b96d8cc1faf09f980",
+    "url": "/static/media/project-report.0fdd2b75.pdf"
   },
   {
     "revision": "599c4f397d30808fa5eee1ae85e75df9",
