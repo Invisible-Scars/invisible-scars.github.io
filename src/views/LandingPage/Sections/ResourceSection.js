@@ -12,9 +12,7 @@ import styles from "assets/jss/material-kit-react/views/landingPageSections/reso
 // files
 import PitchSlides from "assets/files/pitch-slides.pdf";
 import PitchReport from "assets/files/pitch-report.pdf";
-import IdeaBrainstorm from "assets/files/idea-brainstorm.pdf";
-import ProjectReport from "assets/files/idea-brainstorm.pdf";
-import FinalPresentation from "assets/files/idea-brainstorm.pdf";
+import ProjectReport from "assets/files/project-report.pdf";
 import BMC from "assets/files/bmc.pdf";
 import Storyboard from "assets/files/storyboard.pdf";
 
@@ -39,25 +37,7 @@ export default function ResourceSection() {
             Project Report
           </Button>
           <Button
-            variant="contained"
-            className={classes.button}
-            color="primary"
-            href={FinalPresentation}
-            target="_blank"
-            >
-            Final Presentation
-          </Button>
-          <Button
-            variant="contained"
-            className={classes.button}
-            color="primary"
-            href={IdeaBrainstorm}
-            target="_blank"
-            >
-            Idea Brainstorm
-          </Button>
-          <Button
-            variant="contained"
+            variant="outlined"
             className={classes.button}
             color="primary"
             href={BMC}
@@ -66,7 +46,7 @@ export default function ResourceSection() {
             BMC
           </Button>
           <Button
-            variant="contained"
+            variant="outlined"
             className={classes.button}
             color="primary"
             href={Storyboard}
@@ -75,7 +55,7 @@ export default function ResourceSection() {
             Storyboard
           </Button>
           <Button
-            variant="contained"
+            variant="outlined"
             className={classes.button}
             color="primary"
             href={PitchSlides}
@@ -84,7 +64,7 @@ export default function ResourceSection() {
             Pitch Slides
           </Button>
           <Button
-            variant="contained"
+            variant="outlined"
             className={classes.button}
             color="primary"
             href={PitchReport}

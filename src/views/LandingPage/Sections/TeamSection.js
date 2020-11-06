@@ -16,7 +16,8 @@ import CardFooter from "components/Card/CardFooter.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 
-import team1 from "assets/img/project/members/daniel.jpeg";
+import teamAugusto from "assets/img/project/members/augusto.jpeg";
+import teamBeatriz from "assets/img/project/members/beatriz.jpeg";
 import teamDaniel from "assets/img/project/members/daniel.jpeg";
 import teamCelio from "assets/img/project/members/celio.jpg";
 import teamMadalena from "assets/img/project/members/madalena.jpeg";
@@ -39,7 +40,7 @@ export default function TeamSection() {
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team1} alt="..." className={imageClasses} />
+                <img src={teamAugusto} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
                 Augusto Carlos Avides Moreira Pinto Osório
@@ -48,7 +49,9 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  TODO
+                Always willing to learn and face new challenges. 
+                I try to get a better understanding in the areas 
+                of multimedia, modeling, art and design.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -56,28 +59,10 @@ export default function TeamSection() {
                   justIcon
                   color="transparent"
                   className={classes.margin5}
-                  href="https://www.twitter.com"
+                  href="https://www.linkedin.com/in/augusto-osório"
                   target="_blank"
                 >
-                  <i className={classes.socials + " fab fa-twitter"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                  href="https://www.instagram.com"
-                  target="_blank"
-                >
-                  <i className={classes.socials + " fab fa-instagram"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                  href="https://www.facebook.com"
-                  target="_blank"
-                >
-                  <i className={classes.socials + " fab fa-facebook"} />
+                  <i className={classes.socials + " fab fa-linkedin"} />
                 </Button>
               </CardFooter>
             </Card>
@@ -85,7 +70,7 @@ export default function TeamSection() {
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team1} alt="..." className={imageClasses} />
+                <img src={teamBeatriz} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
               Beatriz Almeida Miranda
@@ -141,9 +126,9 @@ export default function TeamSection() {
               <CardBody>
                 <p className={classes.description}>                  
                 Listening to stories and traveling is the best 
-                thing you can do. Graduated in law and informatics, 
-                with a taste for reading, writing and nature. 
-                Contributed mostly to this website.
+                thing you can do. Graduated in law and information 
+                technology, with a taste for reading, writing and 
+                nature. 
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -189,7 +174,10 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  TODO
+                I am determined and eager for new knowledge. 
+                I search daily to become as multidisciplinary 
+                as possible and to help those who work with me 
+                achieve their goals.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -197,28 +185,10 @@ export default function TeamSection() {
                   justIcon
                   color="transparent"
                   className={classes.margin5}
-                  href="https://www.twitter.com"
+                  href="https://www.linkedin.com/in/danielsousaribeiro/"
                   target="_blank"
                 >
-                  <i className={classes.socials + " fab fa-twitter"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                  href="https://www.instagram.com"
-                  target="_blank"
-                >
-                  <i className={classes.socials + " fab fa-instagram"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                  href="https://www.facebook.com"
-                  target="_blank"
-                >
-                  <i className={classes.socials + " fab fa-facebook"} />
+                  <i className={classes.socials + " fab fa-linkedin"} />
                 </Button>
               </CardFooter>
             </Card>
