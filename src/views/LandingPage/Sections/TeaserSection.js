@@ -7,8 +7,7 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 
 // video
-import { Player } from 'video-react';
-import posterImg from 'assets/img/project/poster.png';
+import ReactPlayer from 'react-player/lazy';
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/teaserStyle.js";
 
@@ -19,11 +18,15 @@ export default function TeaserSection() {
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
-        <GridItem xs={12} sm={12} md={9}>
-          <Player
-            poster={posterImg}
-            src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
-          />
+        <GridItem xs={12} sm={12} md={8}>
+          <div className={classes.playerWrapper}>
+            <ReactPlayer
+              className={classes.reactPlayer}
+              url='https://vimeo.com/476370606'
+              width='100%'
+              height='100%'
+            />
+          </div>
         </GridItem>
       </GridContainer>
     </div>
