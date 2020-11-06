@@ -5,7 +5,6 @@ import { Router, Route, Switch } from "react-router-dom";
 import * as serviceWorker from './serviceWorker';
 
 import "assets/scss/material-kit-react.scss?v=1.9.0";
-import 'video-react/dist/video-react.css';
 
 // pages for this product
 import LandingPage from "views/LandingPage/LandingPage.js";
