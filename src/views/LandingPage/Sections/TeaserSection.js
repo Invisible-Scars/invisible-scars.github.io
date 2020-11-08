@@ -22,7 +22,7 @@ export default function TeaserSection() {
           <div className={classes.playerWrapper}>
             <ReactPlayer
               className={classes.reactPlayer}
-              url='https://vimeo.com/476370606'
+              url='https://vimeo.com/476449695'
               width='100%'
               height='100%'
             />
