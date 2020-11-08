@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.9f8071b8.chunk.css",
-    "main.js": "/static/js/main.5049a900.chunk.js",
-    "main.js.map": "/static/js/main.5049a900.chunk.js.map",
+    "main.js": "/static/js/main.f1fe8f40.chunk.js",
+    "main.js.map": "/static/js/main.f1fe8f40.chunk.js.map",
     "reactPlayerDailyMotion.js": "/static/js/reactPlayerDailyMotion.2ece161a.chunk.js",
     "reactPlayerDailyMotion.js.map": "/static/js/reactPlayerDailyMotion.2ece161a.chunk.js.map",
     "reactPlayerFacebook.js": "/static/js/reactPlayerFacebook.03eed206.chunk.js",
@@ -32,11 +32,11 @@
     "static/js/14.4d3210b5.chunk.js": "/static/js/14.4d3210b5.chunk.js",
     "static/js/14.4d3210b5.chunk.js.map": "/static/js/14.4d3210b5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.19d52ec9ba48b41c4dabdf4a49251df7.js": "/precache-manifest.19d52ec9ba48b41c4dabdf4a49251df7.js",
+    "precache-manifest.3e0b3bfd6a3b1e51b6e833368e3d18e3.js": "/precache-manifest.3e0b3bfd6a3b1e51b6e833368e3d18e3.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.9f8071b8.chunk.css.map": "/static/css/main.9f8071b8.chunk.css.map",
     "static/js/14.4d3210b5.chunk.js.LICENSE.txt": "/static/js/14.4d3210b5.chunk.js.LICENSE.txt",
-    "static/js/main.5049a900.chunk.js.LICENSE.txt": "/static/js/main.5049a900.chunk.js.LICENSE.txt",
+    "static/js/main.f1fe8f40.chunk.js.LICENSE.txt": "/static/js/main.f1fe8f40.chunk.js.LICENSE.txt",
     "static/media/material-kit-react.scss?v=1.9.0": "/static/media/frutiger-lt-std-87-extra-black-condensed.0c7b89bd.otf",
     "static/media/UXMap.png": "/static/media/UXMap.6680e19e.png",
     "static/media/augusto.jpeg": "/static/media/augusto.7b722b69.jpeg",
@@ -57,7 +57,7 @@
     "static/media/pitch-report.pdf": "/static/media/pitch-report.edad017d.pdf",
     "static/media/pitch-slides.pdf": "/static/media/pitch-slides.e6a4482d.pdf",
     "static/media/poster-mockup.png": "/static/media/poster-mockup.a4effb51.png",
-    "static/media/project-report.pdf": "/static/media/project-report.0fdd2b75.pdf",
+    "static/media/project-report.pdf": "/static/media/project-report.b89d7634.pdf",
     "static/media/storyboard-1.jpg": "/static/media/storyboard-1.599c4f39.jpg",
     "static/media/storyboard-2.jpg": "/static/media/storyboard-2.ae4439ed.jpg",
     "static/media/storyboard-3.jpg": "/static/media/storyboard-3.5867aa7d.jpg",
@@ -71,6 +71,6 @@
     "static/js/runtime-main.60aeb4ae.js",
     "static/js/14.4d3210b5.chunk.js",
     "static/css/main.9f8071b8.chunk.css",
-    "static/js/main.5049a900.chunk.js"
+    "static/js/main.f1fe8f40.chunk.js"
   ]
 }
