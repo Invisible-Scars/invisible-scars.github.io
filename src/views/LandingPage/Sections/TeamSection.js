@@ -87,33 +87,15 @@ export default function TeamSection() {
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
-                {/* <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                  href="https://www.twitter.com"
-                  target="_blank"
-                >
-                  <i className={classes.socials + " fab fa-twitter"} />
-                </Button>
                 <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
-                  href="https://www.instagram.com"
+                  href="https://www.linkedin.com/in/beatrizmi/"
                   target="_blank"
                 >
-                  <i className={classes.socials + " fab fa-instagram"} />
+                  <i className={classes.socials + " fab fa-linkedin"} />
                 </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                  href="https://www.facebook.com"
-                  target="_blank"
-                >
-                  <i className={classes.socials + " fab fa-facebook"} />
-                </Button> */}
               </CardFooter>
             </Card>
           </GridItem>
@@ -217,33 +199,15 @@ export default function TeamSection() {
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
-                {/* <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                  href="https://www.twitter.com"
-                  target="_blank"
-                >
-                  <i className={classes.socials + " fab fa-twitter"} />
-                </Button>
                 <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
-                  href="https://www.instagram.com"
+                  href="https://www.instagram.com/toscj/"
                   target="_blank"
                 >
                   <i className={classes.socials + " fab fa-instagram"} />
                 </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                  href="https://www.facebook.com"
-                  target="_blank"
-                >
-                  <i className={classes.socials + " fab fa-facebook"} />
-                </Button> */}
               </CardFooter>
             </Card>
           </GridItem>
