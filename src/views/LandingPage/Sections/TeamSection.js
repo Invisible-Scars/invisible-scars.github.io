@@ -79,11 +79,15 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  TODO
+                Computer Graphics and Multimedia Engineer 
+                with a big passion for games and all the 
+                process behind their devolopment. Skilled 
+                in a wide range of softwares and programming 
+                languages, always ready to design and code.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
-                <Button
+                {/* <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
@@ -109,7 +113,7 @@ export default function TeamSection() {
                   target="_blank"
                 >
                   <i className={classes.socials + " fab fa-facebook"} />
-                </Button>
+                </Button> */}
               </CardFooter>
             </Card>
           </GridItem>
