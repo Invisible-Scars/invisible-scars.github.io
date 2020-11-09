@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.9f8071b8.chunk.css",
-    "main.js": "/static/js/main.f1fe8f40.chunk.js",
-    "main.js.map": "/static/js/main.f1fe8f40.chunk.js.map",
+    "main.js": "/static/js/main.e89dfa4b.chunk.js",
+    "main.js.map": "/static/js/main.e89dfa4b.chunk.js.map",
     "reactPlayerDailyMotion.js": "/static/js/reactPlayerDailyMotion.2ece161a.chunk.js",
     "reactPlayerDailyMotion.js.map": "/static/js/reactPlayerDailyMotion.2ece161a.chunk.js.map",
     "reactPlayerFacebook.js": "/static/js/reactPlayerFacebook.03eed206.chunk.js",
@@ -32,15 +32,15 @@
     "static/js/14.4d3210b5.chunk.js": "/static/js/14.4d3210b5.chunk.js",
     "static/js/14.4d3210b5.chunk.js.map": "/static/js/14.4d3210b5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3e0b3bfd6a3b1e51b6e833368e3d18e3.js": "/precache-manifest.3e0b3bfd6a3b1e51b6e833368e3d18e3.js",
+    "precache-manifest.2ba395359b5f413b809988c53fe099fd.js": "/precache-manifest.2ba395359b5f413b809988c53fe099fd.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.9f8071b8.chunk.css.map": "/static/css/main.9f8071b8.chunk.css.map",
     "static/js/14.4d3210b5.chunk.js.LICENSE.txt": "/static/js/14.4d3210b5.chunk.js.LICENSE.txt",
-    "static/js/main.f1fe8f40.chunk.js.LICENSE.txt": "/static/js/main.f1fe8f40.chunk.js.LICENSE.txt",
+    "static/js/main.e89dfa4b.chunk.js.LICENSE.txt": "/static/js/main.e89dfa4b.chunk.js.LICENSE.txt",
     "static/media/material-kit-react.scss?v=1.9.0": "/static/media/frutiger-lt-std-87-extra-black-condensed.0c7b89bd.otf",
     "static/media/UXMap.png": "/static/media/UXMap.6680e19e.png",
     "static/media/augusto.jpeg": "/static/media/augusto.7b722b69.jpeg",
-    "static/media/beatriz.jpeg": "/static/media/beatriz.f161b057.jpeg",
+    "static/media/beatriz.jpeg": "/static/media/beatriz.4de4c043.jpeg",
     "static/media/bg-website.png": "/static/media/bg-website.7cc0f75a.png",
     "static/media/bmc.pdf": "/static/media/bmc.4cdbc75f.pdf",
     "static/media/celio.jpg": "/static/media/celio.2adc0890.jpg",
@@ -71,6 +71,6 @@
     "static/js/runtime-main.60aeb4ae.js",
     "static/js/14.4d3210b5.chunk.js",
     "static/css/main.9f8071b8.chunk.css",
-    "static/js/main.f1fe8f40.chunk.js"
+    "static/js/main.e89dfa4b.chunk.js"
   ]
 }
